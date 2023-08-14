@@ -52,13 +52,28 @@
 				children = 
 				[
 					{
-						_class = "PhysicsShapeCylinder"
-						parent_bone = ""
+						_class = "PhysicsHullFile"
+						name = "physic"
+						parent_bone = "root"
 						surface_prop = "rubber"
 						collision_tags = "solid"
-						radius = 14.924893
-						point0 = [ 0.0, -3.677183, 0.0 ]
-						point1 = [ 0.0, 6.789696, 0.0 ]
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/wheels/benz_280sl_stock/source/physic.fbx"
+						import_scale = 1.0
+						faceMergeAngle = 5.0
+						maxHullVertices = 4
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
 					},
 				]
 			},
@@ -70,12 +85,12 @@
 						_class = "RenderMeshFile"
 						filename = "models/wheels/benz_280sl_stock/source/lod0.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
-						import_rotation = [ 0.0, 0.0, 180.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
-						parent_bone = ""
+						parent_bone = "root"
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -83,8 +98,22 @@
 							[
 								"mer_280sl_67_wheellf",
 								"Mesh",
+								"wheel_lod0",
 							]
 						}
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "root"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						do_not_discard = true
 					},
 				]
 			},

@@ -122,23 +122,7 @@ public static partial class Vehicles
 
 	public static bool IsClientInVehicle(IClient client)
 	{
-		Log.Info( $"Called from: {(Game.IsServer ? "server" : "client" ) }" );
-
 		var list = Entity.All.OfType<VehicleEntity>();
-
-		foreach ( var vehicle in list )
-		{
-			Log.Info( vehicle.Seats );
-			
-			foreach(var seat in vehicle.Seats)
-			{
-				Log.Info( $"Seat belt: {seat.SeatBelt}" );
-				Log.Info( $"Seat free: {seat.IsFree}" );
-				Log.Info( $"Seat index: {seat.Index}" );
-				Log.Info( $"Seat client: {seat.Client}" );
-			}
-		}
-
 		return list.ToList().Exists( x => x.Seats.ToList().Exists( j => j.Client == client ) );
 	}
 
@@ -148,7 +132,6 @@ public static partial class Vehicles
 			return false;
 
 		var list = Entity.All.OfType<VehicleEntity>();
-
 		return list.ToList().Exists( x => x.Seats[0].Client == client );
 	}
 

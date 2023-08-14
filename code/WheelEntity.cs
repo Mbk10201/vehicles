@@ -30,7 +30,6 @@ public partial class WheelEntity : AnimatedEntity
 
 		WheelResource = wheelbase;
 
-
 		var model = !string.IsNullOrEmpty( wheelbase.ModelPath ) ? wheelbase.ModelPath : "models/sbox_props/burger_box/burger_box.vmdl";
 
 		if ( !string.IsNullOrEmpty( model ) )
@@ -43,6 +42,10 @@ public partial class WheelEntity : AnimatedEntity
 	public override void Spawn()
 	{
 		base.Spawn();
+		
+		Tags.Add( "wheel" );
+		Tags.Add( "solid" );
+
 		Transmit = TransmitType.Always;
 		AnimateOnServer = true;
 		UseAnimGraph = true;

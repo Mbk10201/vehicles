@@ -46,8 +46,7 @@ public partial class VehicleEntity : AnimatedEntity, IUse
 		if ( !string.IsNullOrEmpty( model ) )
 		{
 			SetModel( model );
-			SetupPhysicsFromModel( PhysicsMotionType.Dynamic );
-			Position += Vector3.Up * 8.5f;
+			SetupPhysicsFromModel( PhysicsMotionType.Dynamic, true );
 		}
 
 		DebugOverlay.Skeleton( this, Color.White, 100000 );
@@ -66,7 +65,7 @@ public partial class VehicleEntity : AnimatedEntity, IUse
 		Tags.Add( "solid" );
 
 		EnableTouch = true;
-		UseAnimGraph = true;
+		//UseAnimGraph = true;
 		EnableHitboxes = true;
 		Transmit = TransmitType.Always;
 		SurroundingBoundsMode = SurroundingBoundsType.Hitboxes;
@@ -108,16 +107,18 @@ public partial class VehicleEntity : AnimatedEntity, IUse
 
 	void SetupSeats()
 	{
+		Game.AssertServer();
+
 		int maxseats = GetMaxSeats();
 
-		Seats = new List<Seat>();
 		DoorsLocked = new bool[maxseats];
 
 		for ( int i = 0; i < maxseats; i++ )
 		{
+			Log.Info($"Seat number {i} -> created" );
+			
 			var seat = Components.Create<Seat>();
 			seat.SetIndex( i );
-			Seats.Add( seat );
 
 			DoorsLocked[i] = true;
 		}
@@ -247,7 +248,10 @@ public partial class VehicleEntity : AnimatedEntity, IUse
 		if ( Seats[0].Client != client )
 			return;
 
-		//if( Vehicles.IsClientInVehicle( client ) )
+		if( Vehicles.IsClientInVehicle( client ) )
+		{
+
+		}
 
 
 		Log.Info("Simulate driver");
@@ -259,7 +263,7 @@ public partial class VehicleEntity : AnimatedEntity, IUse
 			return;
 		
 		Log.Info( "SetGear" );
-		SetAnimParameter( "gear", gear );
+		//SetAnimParameter( "gear", gear );
 	}
 
 	/*[GameEvent.Client.BuildInput]
@@ -379,19 +383,6 @@ public partial class VehicleEntity : AnimatedEntity, IUse
 	{
 		var client = ConsoleSystem.Caller;
 
-		//Log.Info( Vehicles.IsClientInVehicle( client ));
-
-		var list = Entity.All.OfType<VehicleEntity>();
-
-		foreach ( var vehicle in list )
-		{
-			foreach ( var seat in vehicle.Seats )
-			{
-				Log.Info( $"Seat belt: {seat.SeatBelt}" );
-				Log.Info( $"Seat free: {seat.IsFree}" );
-				Log.Info( $"Seat index: {seat.Index}" );
-				Log.Info( $"Seat client: {seat.Client}" );
-			}
-		}
+		Log.Info( Vehicles.IsClientInVehicle( client ));
 	}
 }

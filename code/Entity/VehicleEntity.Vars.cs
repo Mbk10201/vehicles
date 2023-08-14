@@ -1,6 +1,8 @@
 ﻿using Mbk.Vehicles.Enums;
+using Mbk.Vehicles.Resources;
 using Sandbox;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Mbk.Vehicles;
 
@@ -9,7 +11,9 @@ public partial class VehicleEntity
 	ParticleSystemEntity SmokeEntity { get; set; }
 
 	[Net]
-	public IList<Seat> Seats { get; private set; }
+	public Seat SeatDriver { get; set; }
+
+	public List<Seat> Seats => Components.GetAll<Seat>().ToList();
 
 	[Net]
 	public IList<IClient> WhoHasKeys { get; private set; }

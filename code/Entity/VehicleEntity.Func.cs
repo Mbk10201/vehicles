@@ -43,7 +43,7 @@ public partial class VehicleEntity
 	
 	public void GetFreeSeat(out int index)
 	{
-		index = Seats.ToList().FindIndex( 0, Seats.ToList().Count, (x => x == null) );
+		index = Seats.FindIndex( 0, Seats.Count(), (x => x == null) );
 	}
 
 	public void AddClientToSeat( int index, IClient client )
@@ -55,7 +55,12 @@ public partial class VehicleEntity
 
 		Log.Info( $"[Vehicles] Added {client.Name} to the seat {index}" );
 
-		Seats[index].AttachClient(client);
+		var seat = Components.GetAll<Seat>().Single(x => x.Index == index);
+
+		if ( seat == null )
+			return;
+
+		seat.AttachClient(client);
 
 		Vehicles.ShowHud( To.Single( client ) );
 	}
