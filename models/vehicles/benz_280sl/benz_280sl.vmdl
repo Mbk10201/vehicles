@@ -1,0 +1,2299 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						note = "Need to finish to sort all materials that act being the same"
+						remaps = 
+						[
+							{
+								from = "skin.vmat"
+								to = "materials/shared/colors/white_shiny.vmat"
+							},
+							{
+								from = "carpet_004.vmat"
+								to = "materials/shared/fabrics/02/fabric_02.vmat"
+							},
+							{
+								from = "aluminium.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "glass.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "chrome.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "black.vmat"
+								to = "materials/black_matte.vmat"
+							},
+							{
+								from = "black_plastic.vmat"
+								to = "materials/shared/plastics/01/plastic_01.vmat"
+							},
+							{
+								from = "rubber.vmat"
+								to = "materials/shared/rubber/01/rubber_01.vmat"
+							},
+							{
+								from = "aluminum_polishedsatin.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "aluminum_rgh.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "aluminum_satin.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "aluminumcast.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "backfacinggeo.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "backfacinggeo|grille_a.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "backfacinggeo|mirrorbasel_a.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "black_bodyvent.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "blkplastic_sgl.vmat"
+								to = "materials/shared/plastics/01/plastic_01.vmat"
+							},
+							{
+								from = "bolt_chrome.vmat"
+								to = "materials/shared/screws/screws.vmat"
+							},
+							{
+								from = "cadmium_tarnished_001.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "carpet_002.vmat"
+								to = "materials/shared/fabrics/01/fabric_01.vmat"
+							},
+							{
+								from = "carpet_005.vmat"
+								to = "materials/shared/fabrics/01/fabric_01.vmat"
+							},
+							{
+								from = "chrome_010101ff.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "chrome_polishedsatin.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "chrome_polishedsatin_ffffffff.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "chrome_satin.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "chrome|shifterassy_a.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "chrome|steeringwheel_a.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "chrome|visors_a.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "engine_fluid.vmat"
+								to = "materials/water/dev_water_00.vmat"
+							},
+							{
+								from = "engine_fluid_container.vmat"
+								to = "materials/shared/glass/orange/bulbglass_orange.vmat"
+							},
+							{
+								from = "engine_low.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "frame.vmat"
+								to = "materials/shared/metals/metal_aluminium_02.vmat"
+							},
+							{
+								from = "gls_amber.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_ch1custom_lit.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_ch2_pattern_001.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_clear.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_clear_ffffffff.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_clear|glassgaugecluster_a.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_colored.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_lightbulb.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_lightbulb_a.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_lightbulb_a_ffa96aff.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_lightbulb_b.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_ml_ch1_custom.002.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_ml_ch1_custom.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_ml_ch1_custom_a.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_ml_ch1_ridges_001.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_ml_ch1_ridges_002_a.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_ml_ch1_ridges_002_ffffffff.001.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_ml_ch1_ridges_002_ffffffff.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_ml_ch1_squares_002_a.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_red.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_taillight_multiply_mask.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_windsheild_interior.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "wood_016.vmat"
+								to = "materials/wood/hotspots/plywood_hs.vmat"
+							},
+							{
+								from = "undercarriage.vmat"
+								to = "materials/models/solids/black.vmat"
+							},
+							{
+								from = "grillebackground_radiator_003.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "interior_lod1.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "interior_lod1|steeringwheel_a.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "leather_embossed_alpha.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "leather_lgl.vmat"
+								to = "materials/models/solids/black.vmat"
+							},
+							{
+								from = "leather_lgl|gaugepod_a.vmat"
+								to = "materials/models/solids/black.vmat"
+							},
+							{
+								from = "leather_lgl|steeringwheel_a.vmat"
+								to = "materials/models/solids/black.vmat"
+							},
+							{
+								from = "leather_mgl.vmat"
+								to = "materials/models/solids/black.vmat"
+							},
+							{
+								from = "leather_perforated_001.vmat"
+								to = "materials/shared/leather/01/leather_01.vmat"
+							},
+							{
+								from = "leather_textured_embossed.vmat"
+								to = "materials/shared/leather/03/leather_03.vmat"
+							},
+							{
+								from = "leather_textured_embossed|doorcardrf_a.vmat"
+								to = "materials/shared/leather/03/leather_03.vmat"
+							},
+							{
+								from = "lights_smooth_ch1.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "lights_smooth_ch1_a.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "lights_smooth_ch1_a_efd3a7ff.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "lights_smooth_ch1_b.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "lights_smooth_ch1_b_ffffffff.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "lights_smooth_ch1_c.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "lights_smooth_ch1_ffa96aff.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "lights_smooth_ch1_ffffffff.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_anodized_alloptions.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_anodized_alloptions_a.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_anodized|shifterassy_a.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_brushed.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_cast.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_embossed_alpha.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_embossed_alpha_a.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_ridges_.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_ridges_001.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_ridges_spring.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_rough_001.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_rough_001|steeringwheel_a.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_satin.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "metal_smooth.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "mirrorcenter.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "oil_pan.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "paint.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "paint_000000ff.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "paint_9b532bff.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "paint_a.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "paint_embossed_alpha.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "paint_embossed_alpha_010101ff.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "paint_embossed_alpha_a.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "paint_embossed_alpha_b.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "paint_ffffffff.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "painted_allum_white.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "painted_metal_ch1.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "painted_metal_rgh.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "painted_metal_rgh|grille_a.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "painted_metal_smooth.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "painted_metal_smooth_a.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "paintedmetal_metalic.vmat"
+								to = "materials/shared/metals/metal_silver_02.vmat"
+							},
+							{
+								from = "plastic.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_010101ff.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_embossed_alpha.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_embossed_alpha_000000ff.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_embossed_alpha_0b2453ff.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_embossed_alpha_a.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_embossed_alpha_a_939393ff.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_embossed_alpha_b.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_embossed|doorcardrf_a.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_ffffffff.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_hgl.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_hgl_ffffffff.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_lgl.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_lgl_000000ff.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_lgl|vents_a.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_mgl.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_ngl.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_red.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_rgh.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_ridges_001.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_ridges_001_ffffffff.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_rough_001.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_sgl|steeringwheel_a.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_smooth.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_smooth_a.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_smooth_b.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_smooth_c.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_smooth_ffffffff.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_smooth|visors_a.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_textured_001.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plastic_white.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "plate_light.vmat"
+								to = "materials/shared/plastics/02/plastic_02.vmat"
+							},
+							{
+								from = "reflector.vmat"
+								to = "materials/shared/colors/indigo_rough.vmat"
+							},
+							{
+								from = "rivet_001.vmat"
+								to = "materials/shared/colors/indigo_rough.vmat"
+							},
+							{
+								from = "rivet_001_b6b6b6ff.vmat"
+								to = "materials/shared/colors/indigo_rough.vmat"
+							},
+							{
+								from = "rivet_004.vmat"
+								to = "materials/shared/colors/indigo_rough.vmat"
+							},
+							{
+								from = "rivet_005.vmat"
+								to = "materials/shared/colors/indigo_rough.vmat"
+							},
+							{
+								from = "rivetpainted_002.vmat"
+								to = "materials/shared/rubber/01/rubber_01.vmat"
+							},
+							{
+								from = "rubber_ch1custom.vmat"
+								to = "materials/shared/rubber/01/rubber_01.vmat"
+							},
+							{
+								from = "rubber_ch1custom_a.vmat"
+								to = "materials/shared/rubber/01/rubber_01.vmat"
+							},
+							{
+								from = "rubber_rgh.vmat"
+								to = "materials/shared/rubber/01/rubber_01.vmat"
+							},
+							{
+								from = "rubber_ridges_001.vmat"
+								to = "materials/shared/rubber/01/rubber_01.vmat"
+							},
+							{
+								from = "rubber_smooth|doorlf_a.vmat"
+								to = "materials/shared/rubber/01/rubber_01.vmat"
+							},
+							{
+								from = "rubber_smooth|shifterassy_a.vmat"
+								to = "materials/shared/rubber/01/rubber_01.vmat"
+							},
+							{
+								from = "rubber_trim.vmat"
+								to = "materials/shared/rubber/01/rubber_01.vmat"
+							},
+							{
+								from = "rubbertrim.vmat"
+								to = "materials/shared/rubber/01/rubber_01.vmat"
+							},
+							{
+								from = "screw_minus.vmat"
+								to = "materials/shared/screws/screws.vmat"
+							},
+							{
+								from = "screw_plus.vmat"
+								to = "materials/shared/screws/screws.vmat"
+							},
+							{
+								from = "seat_belt_001.vmat"
+								to = "materials/shared/leather/01/leather_01.vmat"
+							},
+							{
+								from = "skin_bodyvent.vmat"
+								to = "materials/shared/colors/white_rough.vmat"
+							},
+							{
+								from = "skin_steeringwheel.vmat"
+								to = "materials/shared/colors/indigo_rough.vmat"
+							},
+							{
+								from = "steel.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "steelcast.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "stitch_003.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "stitching.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "suede_001.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "taillight_glass_red_a.vmat"
+								to = "materials/shared/glass/red/glass_red.vmat"
+							},
+							{
+								from = "taillight_multiply_mask.vmat"
+								to = "materials/shared/glass/red/glass_red.vmat"
+							},
+							{
+								from = "titanium_tarnished.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "titanium_tarnished_00ff00ff.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "titanium_tarnished_a.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "us_plate_base.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "vents_001.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "us_plate_atlas.vmat"
+								to = "materials/shared/metals/metal_steel_02.vmat"
+							},
+							{
+								from = "gauges.vmat"
+								to = "models/vehicles/benz_280sl/textures/gauges.vmat"
+							},
+							{
+								from = "doortags.vmat"
+								to = "models/vehicles/benz_280sl/textures/doortags.vmat"
+							},
+							{
+								from = "glass_red.vmat"
+								to = "materials/shared/glass/red/glass_red.vmat"
+							},
+							{
+								from = "glass_orange.vmat"
+								to = "materials/shared/glass/orange/glass_orange.vmat"
+							},
+							{
+								from = "mirror.vmat"
+								to = "materials/shared/metals/metal_silver_01.vmat"
+							},
+							{
+								from = "screw.vmat"
+								to = "materials/shared/screws/screws.vmat"
+							},
+							{
+								from = "gls_clear.001.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_clear.006.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "gls_windsheild.006.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "chrome|hoodbadge_a.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "carbonfiber.vmat"
+								to = "materials/shared/carbonfiber/black/carbonfiber_black.vmat"
+							},
+							{
+								from = "brass.vmat"
+								to = "materials/shared/metals/metal_brass_01.vmat"
+							},
+							{
+								from = "mercedes_emblem.vmat"
+								to = "models/vehicles/shared/mercedes_emblem.vmat"
+							},
+							{
+								from = "glass_white.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "bulbglass_orange.vmat"
+								to = "materials/shared/glass/orange/bulbglass_orange.vmat"
+							},
+							{
+								from = "symbols.vmat"
+								to = "models/vehicles/benz_280sl/textures/symbols.vmat"
+							},
+							{
+								from = "weldseam.vmat"
+								to = "materials/shared/welds/01/welds_01.vmat"
+							},
+							{
+								from = "keyhole.vmat"
+								to = "materials/shared/keyholes/02/keyhole_02.vmat"
+							},
+							{
+								from = "caliper.vmat"
+								to = "materials/shared/colors/red_shiny.vmat"
+							},
+							{
+								from = "metal.vmat"
+								to = "materials/shared/colors/gray_rough.vmat"
+							},
+							{
+								from = "copper.vmat"
+								to = "materials/shared/metals/metal_copper_01.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = "materials/shared/colors/yellow_rough.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "Folder"
+						name = "lod0"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "lod0"
+								filename = "models/vehicles/benz_280sl/source/lod0.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = 
+									[
+										"wing_race",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "wing_race_lod0"
+								filename = "models/vehicles/benz_280sl/source/lod0.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"wing_race",
+									]
+								}
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "lod1"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "lod1"
+								filename = "models/vehicles/benz_280sl/source/lod1.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = 
+									[
+										"wing_race_lod1",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "wing_race_lod1"
+								filename = "models/vehicles/benz_280sl/source/lod1.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"wing_race_lod1",
+									]
+								}
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "lod2"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "lod2"
+								filename = "models/vehicles/benz_280sl/source/lod2.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = 
+									[
+										"wing_race_lod2",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "wing_race_lod2"
+								filename = "models/vehicles/benz_280sl/source/lod2.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"wing_race_lod2",
+									]
+								}
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "lod3"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "lod3"
+								filename = "models/vehicles/benz_280sl/source/lod3.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = 
+									[
+										"wing_race_lod3",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "wing_race_lod3"
+								filename = "models/vehicles/benz_280sl/source/lod3.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"wing_race_lod3",
+									]
+								}
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "lod4"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "lod4"
+								filename = "models/vehicles/benz_280sl/source/lod4.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = 
+									[
+										"wing_race_lod4",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "wing_race_lod4"
+								filename = "models/vehicles/benz_280sl/source/lod4.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"wing_race_lod4",
+									]
+								}
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "lod5"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "lod5"
+								filename = "models/vehicles/benz_280sl/source/lod5.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = 
+									[
+										"wing_race_lod5",
+									]
+								}
+							},
+							{
+								_class = "RenderMeshFile"
+								name = "wing_race_lod5"
+								filename = "models/vehicles/benz_280sl/source/lod5.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 1.0
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"wing_race_lod5",
+									]
+								}
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"lod0",
+							"wing_race_lod0",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 60.0
+						meshes = 
+						[
+							"lod1",
+							"wing_race_lod1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 120.0
+						meshes = 
+						[
+							"lod2",
+							"wing_race_lod2",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 180.0
+						meshes = 
+						[
+							"lod3",
+							"wing_race_lod3",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 240.0
+						meshes = 
+						[
+							"lod4",
+							"wing_race_lod4",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 300.0
+						meshes = 
+						[
+							"lod5",
+							"wing_race_lod5",
+						]
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "exhaust01"
+						parent_bone = ""
+						relative_origin = [ 102.253532, 29.769278, 9.96907 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "fuel_hole"
+						parent_bone = "root"
+						relative_origin = [ -110.041573, -18.1805, 20.281416 ]
+						relative_angles = [ -0.0, 180.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "camera_hood"
+						parent_bone = "root"
+						relative_origin = [ 57.82933, 0.0, 37.011379 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "camera_top"
+						parent_bone = "root"
+						relative_origin = [ -118.936546, -0.00003, 88.442177 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "physic"
+						parent_bone = "root"
+						surface_prop = "metal"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/vehicles/benz_280sl/source/physic.fbx"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "hitboxes"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								name = "ENGINE"
+								parent_bone = "root"
+								surface_property = "metal"
+								translation_only = false
+								tags = "engine"
+								hitbox_mins = [ 22.521545, -27.889378, 4.384138 ]
+								hitbox_maxs = [ 89.491882, 28.237015, 34.591782 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "HOOD"
+								parent_bone = "hood"
+								surface_property = "metal"
+								translation_only = false
+								tags = "hood"
+								hitbox_mins = [ -54.921516, -27.889385, -2.535058 ]
+								hitbox_maxs = [ 6.362244, 28.237007, 9.473145 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "HOOD_LOCK"
+								parent_bone = "hood"
+								surface_property = "metal"
+								translation_only = false
+								tags = "hood_lock"
+								hitbox_mins = [ 2.539949, -27.889385, -2.535058 ]
+								hitbox_maxs = [ 15.241503, 28.237007, 3.253086 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "TRUNK"
+								parent_bone = "trunk"
+								surface_property = "metal"
+								translation_only = false
+								tags = "trunk"
+								hitbox_mins = [ -1.011398, -30.978495, -40.803402 ]
+								hitbox_maxs = [ 10.808432, 31.120871, -3.504265 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "TRUNK_LOCK"
+								parent_bone = "trunk"
+								surface_property = "metal"
+								translation_only = false
+								tags = "trunk_lock"
+								hitbox_mins = [ 5.545372, -6.070711, -44.383175 ]
+								hitbox_maxs = [ 10.808432, 6.213087, -41.660877 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "FL_WHEEL"
+								parent_bone = "fl_wheel"
+								surface_property = "metal"
+								translation_only = false
+								tags = "fl_wheel"
+								hitbox_mins = [ -8.0, -8.0, -8.0 ]
+								hitbox_maxs = [ 8.0, 8.0, 8.0 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "FR_WHEEL"
+								parent_bone = "fr_wheel"
+								surface_property = "metal"
+								translation_only = false
+								tags = "rl_wheel"
+								hitbox_mins = [ -8.0, -8.0, -8.0 ]
+								hitbox_maxs = [ 8.0, 8.0, 8.0 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "RL_WHEEL"
+								parent_bone = "rl_wheel"
+								surface_property = "metal"
+								translation_only = false
+								tags = "rl_wheel"
+								hitbox_mins = [ -8.0, -8.0, -8.0 ]
+								hitbox_maxs = [ 8.0, 8.0, 8.0 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "RR_WHEEL"
+								parent_bone = "rr_wheel"
+								surface_property = "metal"
+								translation_only = false
+								tags = "rr_wheel"
+								hitbox_mins = [ -8.0, -8.0, -8.0 ]
+								hitbox_maxs = [ 8.0, 8.0, 8.0 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "Door_FL_LOCK"
+								parent_bone = "door_fl"
+								surface_property = "metal"
+								translation_only = false
+								tags = "door_fl_lock"
+								hitbox_mins = [ -57.156929, 8.428164, -4.528233 ]
+								hitbox_maxs = [ -47.670143, 10.855633, -1.674671 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "Door_FR_LOCK"
+								parent_bone = "door_fr"
+								surface_property = "metal"
+								translation_only = false
+								tags = "door_fr_lock"
+								hitbox_mins = [ -57.156929, 8.428164, 0.647937 ]
+								hitbox_maxs = [ -47.670143, 10.855633, 3.501499 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "Door_FL"
+								parent_bone = "door_fl"
+								surface_property = "metal"
+								translation_only = false
+								tags = "door_fl"
+								hitbox_mins = [ -58.06662, -10.545166, -1.777603 ]
+								hitbox_maxs = [ 1.549164, 18.210951, 4.904312 ]
+							},
+							{
+								_class = "Hitbox"
+								name = "Door_FR"
+								parent_bone = "door_fr"
+								surface_property = "metal"
+								translation_only = false
+								tags = "door_fr"
+								hitbox_mins = [ -58.06662, -10.545166, -4.528233 ]
+								hitbox_maxs = [ 1.549164, 18.210951, 0.734959 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "trunk"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "door_fr"
+								weight = 0.0
+							},
+							{
+								bone = "trunk"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "hood"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "hood"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "door_front_left"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "door_fl"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "door_front_right"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "door_fl"
+								weight = 0.0
+							},
+							{
+								bone = "door_fr"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "gearstick"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "door_fr"
+								weight = 0.0
+							},
+							{
+								bone = "gearstick"
+								weight = 1.0
+							},
+							{
+								bone = "trunk"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "front_axle"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "fl_axle"
+								weight = 1.0
+							},
+							{
+								bone = "fr_axle"
+								weight = 1.0
+							},
+							{
+								bone = "steering_wheel"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "suspensions"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "fl_suspension"
+								weight = 1.0
+							},
+							{
+								bone = "fr_suspension"
+								weight = 1.0
+							},
+							{
+								bone = "rl_suspension"
+								weight = 1.0
+							},
+							{
+								bone = "rr_suspension"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "trunk"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "trunk"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 19
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "hood"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "hood"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 12
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "door_front_left"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "door_front_left"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "close_door_front_left"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "door_front_left"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 0
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "door_front_right"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "door_front_right"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 1
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "close_door_front_right"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "door_front_right"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 1
+						reverse = true
+					},
+					{
+						_class = "EmptyAnim"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						frame_count = 1
+						frame_rate = 30
+					},
+					{
+						_class = "AnimFile"
+						name = "close_hood"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "hood"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 12
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "close_trunk"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "trunk"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 19
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_1"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 2
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_1_GoBack"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 2
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_1_N"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 3
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_2"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 4
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_2_GoBack"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 4
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_2_N"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 5
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_3"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 6
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_3_GoBack"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 6
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_3_N"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 7
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_4"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 8
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_4_GoBack"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 8
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_4_N"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 9
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_5"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 9
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_5_GoBack"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 9
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_5_N"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 10
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_R"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 11
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "gear_R_GoBack"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "gearstick"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 11
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "turn_left"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 13
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "turn_left_to_center"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 13
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "turn_right"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 14
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "turn_right_to_center"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 14
+						reverse = true
+					},
+					{
+						_class = "AnimFile"
+						name = "suspension_fl"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "suspensions"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 15
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "suspension_fr"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "suspensions"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 16
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "suspension_rl"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "suspensions"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 17
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "suspension_rr"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "suspensions"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/vehicles/benz_280sl/source/anims/animations.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 15.0
+						take = 18
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "base"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"lod0",
+									"lod1",
+									"lod2",
+									"lod3",
+									"lod4",
+									"lod5",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "wing"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"wing_race_lod0",
+									"wing_race_lod1",
+									"wing_race_lod2",
+									"wing_race_lod3",
+									"wing_race_lod4",
+									"wing_race_lod5",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = "animgraphs/benz_280sl.vanmgrph"
+		base_model_name = ""
+	}
+}

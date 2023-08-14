@@ -1,0 +1,97 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "black.vmat"
+								to = "materials/shared/colors/black_shiny.vmat"
+							},
+							{
+								from = "aluminum_rough.vmat"
+								to = "materials/shared/metals/metal_aluminium_01.vmat"
+							},
+							{
+								from = "rubber.vmat"
+								to = "materials/shared/colors/black_mat.vmat"
+							},
+							{
+								from = "steel.vmat"
+								to = "materials/shared/metals/metal_steel_01.vmat"
+							},
+							{
+								from = "plastic.vmat"
+								to = "materials/shared/plastics/01/plastic_01.vmat"
+							},
+							{
+								from = "chrome_rough.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "plastic_rough.vmat"
+								to = "materials/shared/colors/db304_rough.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeCylinder"
+						parent_bone = ""
+						surface_prop = "rubber"
+						collision_tags = "solid"
+						radius = 14.924893
+						point0 = [ 0.0, -3.677183, 0.0 ]
+						point1 = [ 0.0, 6.789696, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/wheels/benz_280sl_stock/source/lod0.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 180.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"mer_280sl_67_wheellf",
+								"Mesh",
+							]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "Model": "SL280",
+  "Brand": "assets/brands/mercedes_benz.brand",
+  "Date": "1967",
+  "Identifier": "sl280",
+  "ModelPath": "models/vehicles/benz_280sl/benz_280sl.vmdl",
+  "Wheels": null,
+  "Handling": "assets/vehicles/sl280/sl280_stock.handling",
+  "HasScreen": false,
+  "AttachmentAt": "screen",
+  "PanelBounds": {}
+}

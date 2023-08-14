@@ -1,0 +1,22 @@
+{
+  "WheelsCount": 4,
+  "SeatsCount": 2,
+  "Mass": 1715,
+  "TankVolume": 50,
+  "OilVolume": 5.5,
+  "CoolantVolume": 12,
+  "Consumption": 10,
+  "Transmission": "Manual",
+  "DriveWheel": "RWD",
+  "FuelType": "Gasoline",
+  "Category": "CABRIOLET",
+  "Cylinders": 6,
+  "GearsCount": 4,
+  "CM3": 2778,
+  "HorsePower": 170,
+  "Torque": 300,
+  "MaxRPM": 0,
+  "MaxSpeed": 250,
+  "Price": 125000,
+  "HasABS": true
+}

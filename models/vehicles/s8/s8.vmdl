@@ -1,0 +1,1171 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "PoseParamList"
+				children = 
+				[
+					{
+						_class = "PoseParam"
+						name = "vehicle_steer"
+						poseparam_min = -1.0
+						poseparam_max = 1.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+					{
+						_class = "PoseParam"
+						name = "vehicle_wheel_fl_height"
+						poseparam_min = 0.0
+						poseparam_max = 1.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+					{
+						_class = "PoseParam"
+						name = "vehicle_wheel_fr_height"
+						poseparam_min = 0.0
+						poseparam_max = 1.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+					{
+						_class = "PoseParam"
+						name = "vehicle_wheel_rl_height"
+						poseparam_min = 0.0
+						poseparam_max = 1.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+					{
+						_class = "PoseParam"
+						name = "vehicle_wheel_rr_height"
+						poseparam_min = 0.0
+						poseparam_max = 1.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+					{
+						_class = "PoseParam"
+						name = "vehicle_wheel_fl_spin"
+						poseparam_min = -180.0
+						poseparam_max = 180.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+					{
+						_class = "PoseParam"
+						name = "vehicle_wheel_fr_spin"
+						poseparam_min = -180.0
+						poseparam_max = 180.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+					{
+						_class = "PoseParam"
+						name = "vehicle_wheel_rl_spin"
+						poseparam_min = -180.0
+						poseparam_max = 180.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+					{
+						_class = "PoseParam"
+						name = "vehicle_wheel_rr_spin"
+						poseparam_min = -180.0
+						poseparam_max = 180.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+				]
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "front_axles"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "fl_axle"
+								weight = 1.0
+							},
+							{
+								bone = "fr_axle"
+								weight = 1.0
+							},
+							{
+								bone = "fr_wheel"
+								weight = 1.0
+							},
+							{
+								bone = "steeringwheel"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "wheel_fl"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "fl_axle"
+								weight = 0.0
+							},
+							{
+								bone = "fl_wheel"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "axle_fl"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "fl_axle"
+								weight = 1.0
+							},
+							{
+								bone = "fl_wheel"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "wheel_fr"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "fl_axle"
+								weight = 0.0
+							},
+							{
+								bone = "fl_wheel"
+								weight = 0.0
+							},
+							{
+								bone = "fr_wheel"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "axle_fr"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "fl_axle"
+								weight = 0.0
+							},
+							{
+								bone = "fl_wheel"
+								weight = 0.0
+							},
+							{
+								bone = "fr_axle"
+								weight = 1.0
+							},
+							{
+								bone = "fr_wheel"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "wheel_rl"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "bl_wheel"
+								weight = 1.0
+							},
+							{
+								bone = "fl_axle"
+								weight = 0.0
+							},
+							{
+								bone = "fl_wheel"
+								weight = 0.0
+							},
+							{
+								bone = "fr_wheel"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "axle_rl"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "bl_axle"
+								weight = 1.0
+							},
+							{
+								bone = "bl_wheel"
+								weight = 0.0
+							},
+							{
+								bone = "fl_axle"
+								weight = 0.0
+							},
+							{
+								bone = "fl_wheel"
+								weight = 0.0
+							},
+							{
+								bone = "fr_axle"
+								weight = 0.0
+							},
+							{
+								bone = "fr_wheel"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "wheel_rr"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "bl_wheel"
+								weight = 0.0
+							},
+							{
+								bone = "br_wheel"
+								weight = 1.0
+							},
+							{
+								bone = "fl_axle"
+								weight = 0.0
+							},
+							{
+								bone = "fl_wheel"
+								weight = 0.0
+							},
+							{
+								bone = "fr_wheel"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "axle_rr"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "bl_axle"
+								weight = 0.0
+							},
+							{
+								bone = "bl_wheel"
+								weight = 0.0
+							},
+							{
+								bone = "br_axle"
+								weight = 1.0
+							},
+							{
+								bone = "br_wheel"
+								weight = 0.0
+							},
+							{
+								bone = "fl_axle"
+								weight = 0.0
+							},
+							{
+								bone = "fl_wheel"
+								weight = 0.0
+							},
+							{
+								bone = "fr_axle"
+								weight = 0.0
+							},
+							{
+								bone = "fr_wheel"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "base"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"body",
+									"body2",
+									"body3",
+									"body4",
+									"brake",
+									"caliper",
+									"glass",
+									"privacy_glass",
+									"rubber",
+									"steering_wheel",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "wheels"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"vorsteiner_01",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"vorsteiner_02",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"vorsteiner_03",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"vorsteiner_04",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"vorsteiner_05",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"vossen_01",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"vossen_02",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"vossen_03",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "wings"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"wing_00",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"wing_01",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "carbonfiber.vmat"
+								to = "materials/shared/carbonfiber/black/carbonfiber_black.vmat"
+							},
+							{
+								from = "glass.vmat"
+								to = "materials/shared/glass/white/glass_white.vmat"
+							},
+							{
+								from = "glass_privacy.vmat"
+								to = "models/citizen_props/wineglass02.vmat"
+							},
+							{
+								from = "glass_red.vmat"
+								to = "materials/shared/glass/red/bulbglass_red.vmat"
+							},
+							{
+								from = "leather_dark.vmat"
+								to = "materials/shared/leather/01/leather_01.vmat"
+							},
+							{
+								from = "skin.vmat"
+								to = "materials/shared/colors/blue_rough.vmat"
+							},
+							{
+								from = "steeringwheel.vmat"
+								to = "materials/shared/carbonfiber/red/carbonfiber_red.vmat"
+							},
+							{
+								from = "rim.vmat"
+								to = "materials/shared/metals/metal_aluminium_01.vmat"
+							},
+							{
+								from = "tire.vmat"
+								to = "materials/shared/colors/black_mat.vmat"
+							},
+							{
+								from = "reflectors.vmat"
+								to = "materials/shared/metals/metal_copper_brassed_01.vmat"
+							},
+							{
+								from = "chrome2.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "chrome.vmat"
+								to = "materials/shared/metals/metal_chrome_01.vmat"
+							},
+							{
+								from = "blackglass.vmat"
+								to = "materials/glass/glass_a.vmat"
+							},
+							{
+								from = "black.vmat"
+								to = "materials/models/solids/black.vmat"
+							},
+							{
+								from = "blackshiny.vmat"
+								to = "materials/shared/colors/black_shiny.vmat"
+							},
+							{
+								from = "aluminium.vmat"
+								to = "materials/shared/metals/aluminium01.vmat"
+							},
+							{
+								from = "a8_texture.vmat"
+								to = "materials/shared/fabrics/01/fabric_01.vmat"
+							},
+							{
+								from = "a8_dark_int.vmat"
+								to = "materials/shared/fabrics/02/fabric_02.vmat"
+							},
+							{
+								from = "blackwithphong.vmat"
+								to = "materials/shared/colors/black_rough.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "phy"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/vehicles/s8/phy.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "vehicle_driver_eyes"
+						parent_bone = "camera001"
+						relative_origin = [ 2.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 5.0, -90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "vehicle_feet_passenger0"
+						parent_bone = "camera001"
+						relative_origin = [ -5.0, -34.0, 0.0 ]
+						relative_angles = [ 0.0, 5.0, -90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "vehicle_feet_passenger1"
+						parent_bone = "camera001"
+						relative_origin = [ -5.0, -34.0, 40.0 ]
+						relative_angles = [ 0.0, 5.0, -90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "vehicle_feet_passenger2"
+						parent_bone = "camera001"
+						relative_origin = [ -47.0, -34.0, 40.0 ]
+						relative_angles = [ 0.0, 5.0, -90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "vehicle_feet_passenger3"
+						parent_bone = "camera001"
+						relative_origin = [ -47.0, -34.0, 0.0 ]
+						relative_angles = [ 0.0, 5.0, -90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "vehicle_engine"
+						parent_bone = "bone002"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "wheel_fl"
+						parent_bone = "fl_wheel"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "wheel_fr"
+						parent_bone = "fr_wheel"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "wheel_rr"
+						parent_bone = "br_wheel"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "wheel_rl"
+						parent_bone = "bl_wheel"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "exit1"
+						parent_bone = "bone002"
+						relative_origin = [ 115.0, 5.0, -55.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "enter1"
+						parent_bone = "bone002"
+						relative_origin = [ 115.0, 5.0, -55.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "body"
+						filename = "models/vehicles/s8/body.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "body2"
+						filename = "models/vehicles/s8/body2.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "body3"
+						filename = "models/vehicles/s8/body3.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "body4"
+						filename = "models/vehicles/s8/body4.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "brake"
+						filename = "models/vehicles/s8/brake.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "caliper"
+						filename = "models/vehicles/s8/caliper.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "glass"
+						filename = "models/vehicles/s8/glass.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "privacy_glass"
+						filename = "models/vehicles/s8/privacy_glass.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rubber"
+						filename = "models/vehicles/s8/rubber.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "steering_wheel"
+						filename = "models/vehicles/s8/steering_wheel.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "vorsteiner_01"
+						filename = "models/vehicles/s8/vorsteiner_01.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "vorsteiner_02"
+						filename = "models/vehicles/s8/vorsteiner_02.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "vorsteiner_03"
+						filename = "models/vehicles/s8/vorsteiner_03.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "vorsteiner_04"
+						filename = "models/vehicles/s8/vorsteiner_04.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "vorsteiner_05"
+						filename = "models/vehicles/s8/vorsteiner_05.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "vossen_01"
+						filename = "models/vehicles/s8/vossen_01.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "vossen_02"
+						filename = "models/vehicles/s8/vossen_02.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "vossen_03"
+						filename = "models/vehicles/s8/vossen_03.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "wing_00"
+						filename = "models/vehicles/s8/wing_00.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "wing_01"
+						filename = "models/vehicles/s8/wing_01.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "turn_left"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "front_axles"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/vehicles/s8/sequences.smd"
+						start_frame = 1
+						end_frame = 1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "turn_right"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "front_axles"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/vehicles/s8/sequences.smd"
+						start_frame = 2
+						end_frame = 3
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "wheel_fr_low"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/vehicles/s8/sequences.smd"
+						start_frame = 10
+						end_frame = 10
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "wheel_fr_spin0"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/vehicles/s8/sequences.smd"
+						start_frame = 0
+						end_frame = 0
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "wheel_fr_spin"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/vehicles/s8/sequences.smd"
+						start_frame = 0
+						end_frame = 0
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "wheel_fl_low"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/vehicles/s8/sequences.smd"
+						start_frame = 10
+						end_frame = 10
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

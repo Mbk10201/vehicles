@@ -1,0 +1,234 @@
+// Created by Crowbar 0.71
+
+  Compiling "audi_s8.qc" ...
+    Output from compiler "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\bin\studiomdl.exe": 
+      qdir:    "c:\users\mbk\desktop\3d\vehicles\template_s8\"
+      gamedir: "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\"
+      g_path:  "audi_s8.qc"
+      Building binary model files...
+      Working on "audi_s8.qc"
+      SMD MODEL body.smd
+      SMD MODEL body2.smd
+      SMD MODEL body3.smd
+      SMD MODEL body4.smd
+      SMD MODEL glass.smd
+      SMD MODEL privacy_glass.smd
+      SMD MODEL steering_wheel.smd
+      SMD MODEL wing_00.smd
+      SMD MODEL wing_01.smd
+      SMD MODEL rubber.smd
+      SMD MODEL vossen_01.smd
+      SMD MODEL vossen_02.smd
+      SMD MODEL vossen_03.smd
+      SMD MODEL vorsteiner_01.smd
+      SMD MODEL vorsteiner_02.smd
+      SMD MODEL vorsteiner_03.smd
+      SMD MODEL vorsteiner_04.smd
+      SMD MODEL vorsteiner_05.smd
+      SMD MODEL caliper.smd
+      SMD MODEL brake.smd
+      SMD MODEL phy.smd
+      SMD MODEL sequences.smd
+      Processing LOD for material: blackwithphong
+      Processing LOD for material: chrome2
+      Processing LOD for material: chrome2
+      Processing LOD for material: reflectors
+      Processing LOD for material: blackglass
+      Processing LOD for material: carbonfiber
+      Processing LOD for material: glass
+      Processing LOD for material: chrome
+      Processing LOD for material: aluminium
+      Processing LOD for material: a8_dark_int
+      Processing LOD for material: a8_dark_int
+      Processing LOD for material: skin
+      Processing LOD for material: skin
+      Processing LOD for material: a8_texture
+      Processing LOD for material: leather_dark
+      Processing LOD for material: glass_red
+      Processing LOD for material: glass
+      Processing LOD for material: glass
+      Processing LOD for material: glass_privacy
+      Processing LOD for material: chrome2
+      Processing LOD for material: chrome
+      Processing LOD for material: leather_dark
+      Processing LOD for material: steeringwheel
+      Processing LOD for material: carbonfiber
+      Processing LOD for material: black
+      Processing LOD for material: carbonfiber
+      Processing LOD for material: chrome
+      Processing LOD for material: tire
+      Processing LOD for material: chrome2
+      Processing LOD for material: skin
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: chrome2
+      Processing LOD for material: skin
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: chrome2
+      Processing LOD for material: skin
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: chrome2
+      Processing LOD for material: skin
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: chrome2
+      Processing LOD for material: skin
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: chrome2
+      Processing LOD for material: skin
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: chrome2
+      Processing LOD for material: skin
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: chrome2
+      Processing LOD for material: skin
+      Processing LOD for material: blackshiny
+      Processing LOD for material: rim
+      Processing LOD for material: rim
+      Processing LOD for material: chrome2
+      Processing LOD for material: rim
+      Model has 1 convex sub-parts
+      WARNING: PERFORMANCE (): Collision model will not support the fastest tracing code
+      Collision model completed.
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/audi_s8.mdl:
+      Loading preexisting model: E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/audi_s8.mdl
+         Found 15 preexisting sequences.
+      bones         6240 bytes (18)
+         animation       x       y       ips    angle
+      animations    5184 bytes (29 anims) (30 frames) [0:01]
+      Building sequence index remapping table...
+      No re-ordering required.
+      sequences     4116 bytes (15 seq) 
+      hdr@0057F57C=72410200
+      ik/pose       4056 bytes
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      hdr@0057F57C=72410200
+      textures      2800 bytes
+      keyvalues       96 bytes
+      hdr@0057F574=72410398
+      hdr@0057F57C=72410200
+      bone transforms     2512 bytes
+      bone flex driver       0 bytes
+      bodygroup presets       0 bytes
+      Collision model volume 816081.44 in^3
+      collision        0 bytes
+      total        33828
+      ---------------------
+      writing E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/audi_s8.vvd:
+      vertices   1048512 bytes (21844 vertices)
+      vertices    988272 bytes (20589 vertices)
+      vertices   1048464 bytes (21843 vertices)
+      vertices    654192 bytes (13629 vertices)
+      vertices     23712 bytes (494 vertices)
+      vertices     12912 bytes (269 vertices)
+      vertices    239568 bytes (4991 vertices)
+      vertices     15120 bytes (315 vertices)
+      vertices     60864 bytes (1268 vertices)
+      vertices    107664 bytes (2243 vertices)
+      vertices    373440 bytes (7780 vertices)
+      vertices    579552 bytes (12074 vertices)
+      vertices    473856 bytes (9872 vertices)
+      vertices    501744 bytes (10453 vertices)
+      vertices    804528 bytes (16761 vertices)
+      vertices    760032 bytes (15834 vertices)
+      vertices    546240 bytes (11380 vertices)
+      vertices    482880 bytes (10060 vertices)
+      vertices     62208 bytes (1296 vertices)
+      vertices    112896 bytes (2352 vertices)
+      tangents    349504 bytes (21844 vertices)
+      tangents    329424 bytes (20589 vertices)
+      tangents    349488 bytes (21843 vertices)
+      tangents    218064 bytes (13629 vertices)
+      tangents      7904 bytes (494 vertices)
+      tangents      4304 bytes (269 vertices)
+      tangents     79856 bytes (4991 vertices)
+      tangents      5040 bytes (315 vertices)
+      tangents     20288 bytes (1268 vertices)
+      tangents     35888 bytes (2243 vertices)
+      tangents    124480 bytes (7780 vertices)
+      tangents    193184 bytes (12074 vertices)
+      tangents    157952 bytes (9872 vertices)
+      tangents    167248 bytes (10453 vertices)
+      tangents    268176 bytes (16761 vertices)
+      tangents    253344 bytes (15834 vertices)
+      tangents    182080 bytes (11380 vertices)
+      tangents    160960 bytes (10060 vertices)
+      tangents     20736 bytes (1296 vertices)
+      tangents     37632 bytes (2352 vertices)
+      total      11862272 bytes
+      ---------------------
+      Generating optimized mesh "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models/roleplay/vehicles/audi_s8.dx90.vtx":
+      body parts:        88 bytes
+      models:           500 bytes
+      model LODs:       300 bytes
+      meshes:           567 bytes
+      strip groups:    2079 bytes
+      strips:          2205 bytes
+      verts:        1668123 bytes
+      indices:      1064562 bytes
+      bone changes:    1376 bytes
+      everything:   2739536 bytes
+      WARNING: ConVarRef r_staticlight_streams doesn't point to an existing ConVar
+      WARNING: ConVarRef r_staticlight_streams_indirect_only doesn't point to an existing ConVar
+      
+      Completed "audi_s8.qc"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\audi_s8.dx90.vtx" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_S8\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\audi_s8.mdl" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_S8\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\audi_s8.phy" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_S8\models\roleplay\vehicles"
+    CROWBAR: Moved compiled model file "E:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\models\roleplay\vehicles\audi_s8.vvd" to "C:\Users\MbK\Desktop\3D\Vehicles\Template_S8\models\roleplay\vehicles"
+  ... Compiling "audi_s8.qc" finished. Check above for any errors.
